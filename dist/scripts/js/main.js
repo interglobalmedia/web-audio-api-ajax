@@ -24,6 +24,8 @@ bufferSource.start();
 const startButton = document.getElementById('start');
 const stopButton = document.getElementById('stop');
 const refreshButton = document.getElementById('refresh');
+let confettiSettings = { target: 'my-canvas' };
+let confetti = new ConfettiGenerator(confettiSettings);
 
 // create random background color
 function randomBgColor() {
@@ -87,8 +89,6 @@ startButton.addEventListener('click', (e) => {
   }
   randomBgColor();
   randomBtnColor1();
-  let confettiSettings = { target: 'my-canvas' };
-  let confetti = new ConfettiGenerator(confettiSettings);
   confetti.render();
 });
 
@@ -99,7 +99,5 @@ stopButton.addEventListener('click', (e) => {
   audioElement.pause();
   randomBgColor();
   randomBtnColor2();
-  let confettiSettings = { target: 'my-canvas' };
-  let confetti = new ConfettiGenerator(confettiSettings);
   confetti.render();
 });
