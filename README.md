@@ -17,11 +17,11 @@ git clone https://github.com/interglobalmedia/web-audio-api-ajax.git
 
 ### User Story:
 
-- When the user clicks on the Start button, a song starts playing, the background color of the page changes color, confetti starts falling, and the background color and color of the Start button changes.
+- When the **user** ***clicks*** on the `Start` **button**, a `song` ***starts*** **playing**, the `background color` of the **page** ***changes*** **color**, `confetti` starts ***falling***, and the `background color` and `color` of the `Start` **button** ***changes***.
 
-- When the user clicks on the Stop button, the song stops playing (paused) the background color of the page changes color, confetti starts falling, and the background color and color of the Stop button changes.
+- When the **user** ***clicks*** on the `Stop` **button**, the `song` ***stops*** **playing** (paused), the `background color` of the **page** ***changes*** **color**, `confetti` starts ***falling***, and the `background color` and `color` of the `Stop` **button** ***changes***.
 
-- When the user clicks on the refresh button, everything goes back to its default state. The background of the page goes back to white, the confetti disappears, and the background color of the buttons reverts to their default states of white, and color of the buttons reverts to their default states of of black.
+- When the **user** ***clicks*** on the `Refresh` **button**, everything goes back to its ***default*** **state**. The `background color` of the **page** ***goes back*** to `white`, the `confetti` **disappears**, and the `background color` of the `buttons` ***reverts*** to their **default states** of `white`, and the `color` of the **buttons** ***reverts*** to their **default states** of of `black`.
 
 ### Tools/Packages Used:
 
