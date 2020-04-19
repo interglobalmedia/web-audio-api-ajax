@@ -37,3 +37,13 @@ git clone https://github.com/interglobalmedia/web-audio-api-ajax.git
 
 - `AJAX` (`Asynchronous JavaScript and XML`), to make a **request** to the (local) `Audio1` **file** in the **form** of an `arraybuffer`, which is ***decoded*** on `page load`. 
 
+### Scripts:
+
+`npm run scss`: **watches** for ***changes*** in `styles/scss/main.scss` and **outputs** them into `styles/css/main.css`.
+
+`npm run clean`: ***removes*** the **old** `dist` **folder** and ***replaces*** it with a **new one** ***containing*** latest **changes**.
+
+`npm run build`: ***creates*** a **new** `dist` **build**.
+
+`npm run deploy`: ***deploys*** the **contents** of the `dist` **folder** to `gh-pages`.
+
