@@ -9,7 +9,7 @@
 ```shell
 git clone git@github.com:interglobalmedia/web-audio-api-ajax.git
 ```
-If using HTTPS:
+If using `HTTPS`:
 
 ```shell
 git clone https://github.com/interglobalmedia/web-audio-api-ajax.git
@@ -25,15 +25,15 @@ git clone https://github.com/interglobalmedia/web-audio-api-ajax.git
 
 ### Tools/Packages Used:
 
-- npm
+- `npm`
 
-- npm package node-sass to enable using Sass for the project styling
+- `npm` **package** `node-sass` to ***enable*** using `Sass` for the **project styling**
 
-- npm package gh-pages to enable the automatic deployment of the application to gh-pages.
+- `npm` **package** `gh-pages` to ***enable*** the `automatic deployment` of the **application** to `gh-pages`.
 
-- cdnjs of confetti-js npm package which automatically generates an animated confetti effect on the page.
+- `cdnjs` of `confetti-js` **npm package** which ***automatically*** **generates** an **animated** `confetti` **effect** on the ***page***.
 
-- The Web Audio API, which is responsible for the generation of the music.
+- The `Web Audio API`, which is ***responsible*** for the **generation** of the ***music***.
 
-- AJAX (Asynchronous JavaScript and XML), to make a request to the (local) Audio file in the form of an `arraybuffer`, which is decoded on page load. 
+- `AJAX` (`Asynchronous JavaScript and XML`), to make a **request** to the (local) `Audio1` **file** in the **form** of an `arraybuffer`, which is ***decoded*** on `page load`. 
 
