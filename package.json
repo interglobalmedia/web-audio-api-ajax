@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/interglobalmedia/web-audio-api-ajax#readme",
   "dependencies": {
-    "confetti-js": "0.0.18",
     "gh-pages": "^2.2.0",
     "node-sass": "^4.13.1"
   }
