@@ -1,5 +1,7 @@
 const context = new AudioContext();
 const audioElement = document.getElementById('track');
+/* set loop porperty on audio element and dynamically add the loop attribute to the audio element. Set the value of the attribute to true. */
+audioElement.loop = true;
 const source = context.createMediaElementSource(audioElement);
 
 source.connect(context.destination);
