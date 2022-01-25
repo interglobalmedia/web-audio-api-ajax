@@ -12,7 +12,7 @@
 		"format": "npm run prettier -- --write",
 		"prepare": "husky install",
 		"prettier": "prettier \"**/*.+(js|jsx|json|yml|yaml|css|less|scss|ts|tsx|md|graphql|mdx)\"",
-		"validate": "npm run lint && npm run stylelint && npm run prettier -- --list-different",
+		"validate": "npm run lint && npm run stylelint && npm run prettier",
 		"clean": "rm -rf dist/",
 		"cleanAudio": "rm dist/Late_Night_Drive.mp3",
 		"serve": "webpack-dev-server --mode development --config config/webpack.base.config.js --open --hot --history-api-fallback --node-env development --node-env stag",
